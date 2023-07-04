@@ -2,23 +2,23 @@
 
 ## Descripción
 
-Página web de un programa para obtener los cambios de las denominaciones de monedas
+Página web de un programa para obtener los cambios de las denominaciones de moneda [1, 2, 5, 10].
 
-- Ingresar cantidad de monedas
+- Ingresar cantidad total numérica
+- Mostrar las cantidades exactas de cada denominación
 
 ## Tecnologías utilizadas
 
+- Bootstrap
+- Ajax
+- PHP
 - JavaScript
 - HTML
 - CSS
-- Svelte
-- Vite
-- Supabase
 
 ## Instalación
 
-- Clonar el repositorio con **`git clone https://github.com/eduardovisa/frontend-tecnico.git`**
+- Dirigirse a la carpeta en donde se va a ejecutar apache, en mi caso en Xampp
+- Clonar el repositorio con **`git clone https://github.com/eduardovisa/php-cambio-monedas.git`**
 - Situarse en la carpeta del proyecto. **`cd nombre-proyecto/`**
-- Abrir una terminal dentro del proyecto e instalar las dependencias con el comando **`npm install`** o **`yarn install`** .
-- En el archivo **.env** se encuentra la información de las variables de entorno para la base de datos.
-- Uan vez cargado toda la información, se pasará a ejecutar el comando para iniciar el servidor de ambiente de desarrollo con **`npm run dev`** o **`yarn dev`**.
+- Iniciar Apache e ir a al enlace de **`localhost/nombre-proyecto`**
