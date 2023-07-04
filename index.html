@@ -27,11 +27,14 @@
               <label for="cantidadIn" class="visually-hidden">Cantidad</label>
               <input
                 style="width: 400px; padding: 1vw"
-                type="text"
+                type="number"
+                min="0"
+                pattern="^[0-9]+"
                 class="form-control"
                 id="cantidadIn"
                 name="cantidadIn"
                 placeholder="Cantidad"
+                value="0"
               />
             </div>
             <div class="col-12 d-flex justify-content-center">
