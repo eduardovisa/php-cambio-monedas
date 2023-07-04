@@ -7,6 +7,9 @@ $(document).ready(function () {
       url: 'main.php',
       type: 'post',
       dataType: 'json',
+      beforeSend: function () {
+        $('.fa').css('display', 'inline');
+      },
     })
       .done(function (response) {
         $('.miles').html(response[0]);
@@ -15,8 +18,7 @@ $(document).ready(function () {
         $('.unidades').html(response[3]);
       })
       .fail(function (response) {
-        console.log(response);
-        $('span').html('Falso');
+        // console.log(response);
       })
       .always(function () {
         $('.fa').hide();
